@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "string": "cpp",
+        "__locale": "cpp",
+        "__string": "cpp",
+        "string_view": "cpp",
+        "ios": "cpp",
+        "vector": "cpp",
+        "stack": "cpp",
+        "queue": "cpp",
+        "utility": "cpp",
+        "functional": "cpp"
+    }
+}
