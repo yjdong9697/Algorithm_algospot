@@ -1,15 +1,17 @@
-{ 
-    "version": "0.2.0", 
-    "configurations": [ 
-        { 
-            "type": "lldb", 
-            "request": "launch", 
-            "name": "Launch", 
-            "program": "${fileDirname}/${fileBasenameNoExtension}", 
-            "args": [], 
-            "preLaunchTask": "g++ build active file", 
-            "stdio": [null,null,null], 
-            "terminal": "integrated" 
-        } 
-    ] 
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}.out",
+            "args": [],
+            "preLaunchTask": "g++",
+            "stdio": [
+                "${fileDirname}/input_value/sample_input.txt"
+            ],
+            "terminal": "integrated"
+        }
+    ]
 }
