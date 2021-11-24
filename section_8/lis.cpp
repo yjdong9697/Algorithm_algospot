@@ -31,7 +31,7 @@ int main(void){
         int result = -1;
 
         for(int i = 0; i < n; i++){
-            result = max(result, dp[i]);
+            result = max(result, memoi(i));
         }
         cout << result << "\n";
     }
